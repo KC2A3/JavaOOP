@@ -7,6 +7,13 @@ public class StudentInformation {
     student.setAge(23);
     student.setGender("man");
     student.setID(666);
-    System.out.println(student);
+    System.out.println(
+        student.getName()
+            + ", "
+            + student.getAge()
+            + ", "
+            + student.getGender()
+            + ", "
+            + student.getId());
   }
 }
