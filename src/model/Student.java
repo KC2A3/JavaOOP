@@ -7,7 +7,7 @@ public class Student {
   private int ID;
 
   public String getName() {
-    return name;
+    return this.name;
   }
 
   public void setName(String name) {
@@ -15,7 +15,7 @@ public class Student {
   }
 
   public int getAge() {
-    return age;
+    return this.age;
   }
 
   public void setAge(int age) {
@@ -23,7 +23,7 @@ public class Student {
   }
 
   public String getGender() {
-    return gender;
+    return this.gender;
   }
 
   public void setGender(String gender) {
@@ -31,7 +31,7 @@ public class Student {
   }
 
   public int getID() {
-    return ID;
+    return this.ID;
   }
 
   public void setID(int ID) {
